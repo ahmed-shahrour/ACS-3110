@@ -4,7 +4,7 @@
 def merge(items1, items2):
     """Merge given lists of items, each assumed to already be in sorted order,
     and return a new list containing all items in sorted order.
-    TODO: Running time: O(n * m)
+    TODO: Running time: O(n)
     TODO: Memory usage: O(n)"""
     new_list = []
 

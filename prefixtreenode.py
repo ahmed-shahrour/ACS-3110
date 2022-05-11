@@ -32,7 +32,7 @@ class PrefixTreeNode:
     def has_child(self, character):
         """Return True if this prefix tree node has a child node that
         represents the given character amongst its children."""
-        return character in self.children:
+        return character in self.children
 
     def get_child(self, character):
         """Return this prefix tree node's child node that represents the given
